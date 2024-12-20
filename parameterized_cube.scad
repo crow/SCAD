@@ -44,15 +44,3 @@ module param_cube(
 // Example usage:
 // Basic cube
 param_cube([30, 30, 30]);
-
-// Hollow cube with 2mm walls
-// translate([40, 0, 0])
-// param_cube([30, 30, 30], wall_thickness = 2);
-
-// Rounded cube
-// translate([80, 0, 0])
-// param_cube([30, 30, 30], corner_radius = 5);
-
-// Hollow rounded cube
-// translate([120, 0, 0])
-// param_cube([30, 30, 30], wall_thickness = 2, corner_radius = 5);
